@@ -5,6 +5,7 @@ const Card = () => import('@/views/components/card');
 const Chips = () => import('@/views/components/chips');
 const Table = () => import('@/views/components/table');
 const Pagination = () => import('@/views/components/pagination');
+const Tree = () => import('@/views/components/tree');
 
 export default [
   {
@@ -41,5 +42,10 @@ export default [
     path: 'pagination',
     name: 'data-display.pagination',
     component: Pagination
+  },
+  {
+    path: 'tree',
+    name: 'data-display.tree',
+    component: Tree
   }
 ];

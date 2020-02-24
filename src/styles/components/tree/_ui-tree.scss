@@ -1,0 +1,32 @@
+@use './variables' as ui-tree-variables;
+
+.mdc-tree {
+  &--item {
+    padding-left: 1em;
+    &-surface {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      &-icon {
+        font-size: 1.125em;
+        width: 1.125em;
+      }
+      &-name {
+        display: flex;
+        align-items: center;
+        padding: 4px;
+        border-radius: 4px;
+        transition: all 0.25s;
+        &.selected {
+          background-color: rgba(0, 0, 0, 0.05);
+          user-select: none;
+          color: ui-tree-variables.$color;
+        }
+      }
+    }
+    &-content {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -195,6 +195,11 @@ const MATERIAL_COMPONENTS = [
         icon: 'component',
         name: 'Pagination',
         description: 'Pagination'
+      },
+      {
+        icon: 'call_split',
+        name: 'Tree',
+        description: 'tree'
       }
     ]
   },
